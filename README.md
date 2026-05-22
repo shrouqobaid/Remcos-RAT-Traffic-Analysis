@@ -37,7 +37,7 @@
 
 ![C2 Beaconing](screenshots/c2_beaconing.png)
 
-## 🏗️ مخطط مسار الهجوم (Attack Flow Diagram)
+## مخطط مسار الهجوم (Attack Flow Diagram)
 
 ```mermaid
 graph TD
