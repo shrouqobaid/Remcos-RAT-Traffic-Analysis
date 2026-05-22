@@ -37,6 +37,21 @@
 
 ![C2 Beaconing](screenshots/c2_beaconing.png)
 
+## 🏗️ مخطط مسار الهجوم (Attack Flow Diagram)
+
+```mermaid
+graph TD
+    A[Victim Machine: 10.5.29.101] -->|1. Initial Access| B(OneDrive Phishing Link)
+    B -->|2. Payload Delivery| C{Remcos RAT Executed}
+    C -->|3. Establish Persistence| C
+    C -->|4. Command & Control| D[C2 Server: 146.70.158.105]
+    D -->|5. Data Exfiltration| D
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#f66,stroke:#333,stroke-width:4px
+    style B fill:#fff,stroke:#333,stroke-width:2px
+```
+
 ---
 
 ## MITRE ATT&CK Mapping
