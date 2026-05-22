@@ -55,6 +55,17 @@
 
 ---
 
+## MITRE ATT&CK Mapping
+تطبيق إطار MITRE ATT&CK على التهديد المكتشف لفهم سلوك المهاجم بشكل أفضل:
+
+| ID | Tactic | Technique | Description |
+| :--- | :--- | :--- | :--- |
+| **T1566** | Phishing | Spearphishing Link | استخدام روابط ملغمة (OneDrive) لإيصال البرمجية. |
+| **T1071** | Command and Control | Application Layer Protocol | استخدام بروتوكولات طبقة التطبيق للتواصل مع سيرفر C2. |
+| **T1547** | Persistence | Boot or Logon Autostart | استخدام Remcos لتقنيات تضمن العمل التلقائي عند التشغيل. |
+| **T1012** | Discovery | Query Registry | جمع معلومات عن النظام المستهدف فور الإصابة. |
+
+
 ##  مسار الهجوم (Attack Lifecycle)
 بناءً على التحليل، اتبع الهجوم مراحل **Cyber Kill Chain**:
 1. **Delivery:** عبر رابط OneDrive ملغم.
